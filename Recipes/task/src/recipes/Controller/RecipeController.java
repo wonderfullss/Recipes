@@ -18,8 +18,6 @@ public class RecipeController {
 
     @Autowired
     private RecipeRepository recipeRepository;
-    CountClass id = new CountClass();
-
     @GetMapping("/api/recipe/{id}")
     public ResponseEntity<?> get(@PathVariable Long id) {
         if (recipeRepository.findRecipeById(id) != null)
