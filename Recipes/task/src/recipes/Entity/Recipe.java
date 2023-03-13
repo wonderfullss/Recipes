@@ -32,6 +32,11 @@ public class Recipe {
     @NotBlank
     private String description;
 
+    @JsonIgnore
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id", nullable = false)
+    private User user;
+
     @ElementCollection
     @CollectionTable(name = "recipe_ingredients")
     @NotEmpty
