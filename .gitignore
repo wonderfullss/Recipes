@@ -1,9 +1,0 @@
-# Project exclude paths
-/.gradle/
-/Recipes/task/build/
-/Recipes/task/out/
-/Recipes/task/out/production/classes/
-/Topics/Comparing dates and time/Don't be late again/out/
-/Topics/Comparing dates and time/Don't be late again/out/production/classes/
-/Topics/The utility class Collections/The first index of a sublist/out/
-/Topics/The utility class Collections/The first index of a sublist/out/production/classes/
